@@ -9,7 +9,7 @@ async def monitor(Mbot, message):
           
 @Mbot.on_message(filters.command("start") & filters.incoming)
 async def start(Mbot, message):
-          await message.reply(f"👋👋 Hello{message.from_user.mention()}\nCurrently, I Am The Easiest And Fastest Instagram Downloader Bot, Supporting Reels.")
+          await message.reply(f"👋 Hello {message.from_user.mention()}\nCurrently, I Am The Easiest And Fastest Instagram Downloader Bot, Supporting Reels.")
           
 @Mbot.on_message(filters.command("help") & filters.incoming)
 async def help(Mbot, message):
