@@ -37,7 +37,7 @@ async def link_handler(Mbot, message):
             if LOG_GROUP:
                await Mbot.send_message(LOG_GROUP,f"Instagram {e} {content_value}")
             ##optinal 
-            await message.reply(f"400: Sorry, Unable To Find It  try another or report it  to @masterolic or support chat @spotify_supportbot 🤖  ")
+            await message.reply(f"400: Sorry, Unable To Find It  try another or report it  to @GamerBhai02 🤖  ")
 
         finally:
             if 'dump_file' in locals():
